@@ -20,6 +20,7 @@ body {
     color: var(--main-txt-color);
     font-size: 14px;
     letter-spacing: 0.03em;
+    width: 1600px;
 }
 ul {
     list-style: none;
@@ -43,7 +44,12 @@ ul {
     font-family: var(--secondary-font);
 }
 
+
     /*Основні посилання хедера*/
+.main-nav {
+    display: flex;
+    outline: 1px solid red;
+}
 .site-nav-links .link {
     text-decoration: none;
     color: var(--main-txt-color);
@@ -55,8 +61,27 @@ ul {
 .site-nav-links .link:focus {
     color: var(--accent-txt-color);
 }
+.site-nav-links {
+    display: flex;
+}
+.site-nav-links li {
+    outline: 1px solid red;
+}
+.contact-links {
+    display: flex;
+    gap: 50px;
 
+}
+.contact-links li {
+    outline: 1px solid red;
+}
+.link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
     /*Контакти хедера*/
+
 .contact-links .link {
     text-decoration: none;
     font-weight: 500;
