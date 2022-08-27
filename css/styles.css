@@ -298,6 +298,7 @@ img {
     gap: 30px;
     padding-top: 94px;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 .section-btn {
