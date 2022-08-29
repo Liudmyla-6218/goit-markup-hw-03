@@ -104,11 +104,16 @@ section {
 .site-nav-links .link:focus {
     color: var(--accent-txt-color);
 }
+.site-nav-links .link .current {
+    color: var(--accent-txt-color);
+}
 .link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+
     /*Контакти хедера*/
 .contact-links {
     display: flex;
@@ -164,6 +169,7 @@ section {
     cursor: pointer;
     width: 216px;
     height: 50px;
+    border: none;
 }
 .btn:hover,
 .btn:focus {
@@ -202,8 +208,8 @@ section {
     line-height: calc(24 / 14);
     color: #757575;
 }
-.narrow-container {
-    padding-bottom: 94px;
+.about-box {
+    padding-top: 0;
 }
 .subject {
     font-weight: 700;
@@ -346,7 +352,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
 }
 .main-link {
     flex-basis: calc((100% - 30px * 2) / 3);
